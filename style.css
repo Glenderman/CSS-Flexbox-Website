@@ -1,0 +1,67 @@
+body {
+	margin: 0px;
+	background-color: #cadcf9; 
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #644647;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #47ff52, -1px -1px 0 #47ff52, 1px -1px 0 #47ff52, -1px 1px 0 #47ff52, 0px 1px 0 #47ff52, 1px 0px 0 #47ff52, 0px -1px 0 #47ff52, -1px 0px 0 #47ff52, 4px 2px 0 #333;
+	border-bottom: 2px solid #47ff52;
+	border-right: 2px solid #47ff52;
+	width: 730px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+	background-color: white;
+}
+
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.picture1:hover, .picture3:hover, .picture5:hover {
+	transform: scale(1.5);
+	transition: 3s;
+}
+
+.picture2:hover, .picture8:hover {
+	transform: skewY(25deg);
+	transition: 0.5s;
+}
+
+.picture4:hover, .picture6:hover {
+	transform: rotate(79deg);
+	transition: 1s.5s;
+}
+
+.picture7:hover, .picture9:hover {
+	transform: translate(70px, 300px);
+	transition: 1.5s;
+}
+
+.picture10:hover, .picture11:hover {
+	transform: scale(-2) skew(-20deg);
+	transition: 1.5s;
+}
+
+
+
+
+
